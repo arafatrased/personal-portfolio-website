@@ -32,15 +32,26 @@ body{
     border: none;
 
 }
-
+.section-title{
+    font-weight: bold;
+    font-size: 2.1em;
+}
+.section-description{
+    font-size: 1.1em;
+    color: #757575;
+}
+.secondary-bg{
+    background: rgb(255, 248, 243);
+}
 /* Header */
 
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: 	no-repeat;
-    background-position: top left, bottom right;
+    background-position: bottom left, bottom right;
     height: 100vh;
     width: 100vw;
+    background: rgb(255, 248, 243);
 }
 
 /* navbar styles */
@@ -87,12 +98,12 @@ nav li a{
 
 .banner-greetings{
     color: rgb(71, 71, 71);
-    font-size: 2.8em;
+    font-size: 2em;
     font-weight: 600;
 }
 .banner-title{
     font-weight: bold;
-    font-size: 5.3em;
+    font-size: 4em;
 }
 .banner-profile-pic{
     width: 100%;
@@ -110,4 +121,31 @@ nav li a{
     display: flex;
     gap: 15px;
     margin-top: 40px;
+}
+/* Main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about */
+
+.about{
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 130px;
+    padding: 150px;
+    height: 550px;
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap:30px;
+}
+.item-description{
+    font-weight: bold;
 }
